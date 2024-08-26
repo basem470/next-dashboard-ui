@@ -12,7 +12,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
         <Menu />
       </div>
       {/* main content */}
-      <div className="flex-grow bg-[#F7F8FA] overflow-y-scroll flex flex-col">
+      <div className="flex-grow bg-[#F7F8FA] overflow-y-scroll flex flex-col p-4">
         <Navbar />
         {children}
       </div>
